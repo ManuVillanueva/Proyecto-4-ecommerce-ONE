@@ -1,0 +1,25 @@
+.hero {
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  padding: .5rem;
+}
+
+.nav__links {
+  display: flex;
+  padding: .5rem;
+}
+
+.nav__links li {
+  margin: 1rem 1rem;
+}
+
+li #login__btn {
+  border: 1px solid black;
+}
+
+#search__icon {
+  margin-left: 2rem;
+}
