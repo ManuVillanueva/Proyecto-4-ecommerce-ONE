@@ -8,10 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/banner-hero.css">
   <link rel="stylesheet" href="css/product-gallery.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
   <header class="hero">
@@ -35,48 +38,175 @@
       <div class="info__banner">
         <h2>Noviembre Promocional</h2>
         <p>Productos seleccionados con 33% de descuento</p>
-        <a href="#">Ver Consolas</a>
+        <a href="#consoles">Ver Consolas</a>
       </div>
     </section>
 
     <!--Product gallery-->
     <section class="gallery">
+      <!--Starwars gallery-->
       <div class="starwars__gallery">
         <div class="gallery__title">
           <h3>Star Wars</h3>
-          <a href="#">Ver todo</a>
+          <a href="#">Ver todo<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="products__container">
+          <div class="products">
+            <img src="img/galeria-starwars/starwars-1.png" alt="Foto de una taza de stormtropper">
+            <h5>Producto XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-starwars/starwars-2.png" alt="">
+            <h5>Producto XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-starwars/starwars-3.png" alt="">
+            <h5>Producto XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-starwars/starwars-4.png" alt="">
+            <h5>Producto XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+        </div>
+        
+      </div>
+      
+      <!--Consoles gallery-->
+      <div id="consoles" class="consoles__gallery">
+        <div class="gallery__title">
+          <h3>Consolas</h3>
+          <a href="#">Ver todo<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="products__container">
+          <div class="products">
+            <img src="img/galeria-consolas/consola-1.png" alt="Foto de un joystick de xbox one x">
+            <h5>Joystick de Xbox XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-consolas/consola-2.png" alt="Foto de una play 5">
+            <h5>Play 5 XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-consolas/consola-3.png" alt="Foto de una Super Nintendo">
+            <h5>Consola XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-consolas/consola-4.png" alt="Foto de unos joycons de nintendo switch">
+            <h5>Joystick de Switch XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <!--Variety gallery-->
+      <div class="consoles__gallery">
+        <div class="gallery__title">
+          <h3>Variedad</h3>
+          <a href="#">Ver todo<i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <div class="products">
-          <img src="img/galleria-starwars/starwars-1.png" alt="Foto de una taza de stormtropper">
-          <h5>Producto XYZ</h5>
-          <p>R$ 60,00</p>
-          <a href="#">Ver producto</a>
-        </div>
-
-        <div class="products">
-          <img src="img/galleria-starwars/starwars-2.png" alt="">
-          <h5>Producto XYZ</h5>
-          <p>R$ 60,00</p>
-          <a href="#">Ver producto</a>
-        </div>
-
-        <div class="products">
-          <img src="img/galleria-starwars/starwars-3.png" alt="">
-          <h5>Producto XYZ</h5>
-          <p>R$ 60,00</p>
-          <a href="#">Ver producto</a>
-        </div>
-
-        <div class="products">
-          <img src="img/galleria-starwars/starwars-4.png" alt="">
-          <h5>Producto XYZ</h5>
-          <p>R$ 60,00</p>
-          <a href="#">Ver producto</a>
+        <div class="products__container">
+          <div class="products">
+            <img src="img/galeria-varios/varios-1.png" alt="Foto de una remera de Atari">
+            <h5>Remera Atari</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-varios/varios-2.png" alt="Foto de una remera de Super Nintendo">
+            <h5>Remera SNES</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-varios/varios-3(1).png" alt="Foto de una figura de sonic">
+            <h5>Sonic</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
+  
+          <div class="products">
+            <img src="img/galeria-varios/varios-4.png" alt="Foto de un joystick y una consola">
+            <h5>Joystick y Consola XYZ</h5>
+            <p>R$ 60,00</p>
+            <a href="#">Ver producto</a>
+          </div>
         </div>
         
       </div>
     </section>
+
+    <!--Contact section-->
+    <section class="contact">
+      <h2>Contacte con nosotros</h2>
+      <form class="form" action="">
+        <label for="name">Nombre</label>
+        <input id="name" type="text">
+
+        <label for="textarea">Escriba su mensaje</label>
+        <textarea name="" id="textarea" cols="15" rows="10"></textarea>
+
+        <button>Enviar mensaje</button>
+      </form>
+
+      <div class="about__company">
+        <div class="logo">
+          <a href="#"><img src="img/Vector.png" alt="Imagen de un mando"></a>
+          <img src="img/AluraGeek.png" alt="Imagen de letras de alura">
+          <img src="img/AluraGeek2.png" alt="Imagen de letras de alura">
+        </div>
+        <ul>
+          <li><a>Quienes somos</a></li>
+          <li><a>Política de privacidad</a></li>
+          <li><a>Programa de fidelidad</a></li>
+          <li><a>Nuestras tiendas</a></li>
+          <li><a>Quiero ser franquiciado</a></li>
+          <li><a>Anúncie aquí</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <p>Made by <a href="#">Manuel Villanueva</a> - 2022</p>
+      <div class="social__media">
+        <ul class="social__links">
+          <li></li>
+          <a href="#"><i class="fa-brands fa-github"></i>Github</a>
+          <li></li>
+          <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+          <li></li>
+          <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+          <li></li>
+          <a href="#"><i class="fa-solid fa-file-pdf"></i>Curriculum</a>
+        </ul>
+      </div>
+    </footer>
   </main>
 </body>
 </html>

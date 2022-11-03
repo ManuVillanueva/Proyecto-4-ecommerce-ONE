@@ -1,5 +1,38 @@
 /*Starwars*/
 .gallery__title {
   display: flex;
-  margin: 5px;
+  margin: 10px;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+
+.gallery__title a {
+  color: #2a7ae4;
+}
+
+.fa-solid {
+  margin-left: 5px;
+}
+
+.products__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.products {
+  padding: 1rem 0;
+}
+
+.products h5 {
+  margin: 10px 0;
+}
+
+.products p {
+  margin: 5px 0;
+}
+
+.products a {
+  color: #2a7ae4;
 }

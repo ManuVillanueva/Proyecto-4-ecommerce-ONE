@@ -11,7 +11,7 @@
 
 .banner__hero img {
   position: absolute;
-  width: 50vh;
+  width: 100%;
   z-index: -1;
 }
 
@@ -25,7 +25,7 @@
 
 .info__banner a {
   background: #2a7ae4;
-  margin-top: 3rem;
+  margin-top: 1rem;
   position: absolute;
   padding: 1rem;
   border: 1px solid #2a7ae4;
