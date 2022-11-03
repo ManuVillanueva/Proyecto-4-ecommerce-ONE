@@ -1,15 +1,25 @@
 .hero {
-  width: 100%;
   display: flex;
+  padding: 10px;
+  width: 100%;
 }
 
 .logo {
   padding: .5rem;
+  margin-top: .5rem;
+}
+
+.logo a img {
+  width: 2rem;
+}
+
+.logo img {
+  width: 2rem;
 }
 
 .nav__links {
   display: flex;
-  padding: .5rem;
+  margin: 5px;
 }
 
 .nav__links li {
@@ -17,9 +27,12 @@
 }
 
 li #login__btn {
-  border: 1px solid black;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+  padding: 1rem 2rem;
 }
 
 #search__icon {
   margin-left: 2rem;
+  width: 10px;
 }

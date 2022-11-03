@@ -1,0 +1,5 @@
+/*Starwars*/
+.gallery__title {
+  display: flex;
+  margin: 5px;
+}
