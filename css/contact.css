@@ -68,3 +68,64 @@
 .about__company li a {
   cursor: pointer;
 }
+
+/*      Responsive Design       */
+
+/* Tablet */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .contact {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .contact h2 {
+    position: absolute;
+    margin-right: 34%;
+  }
+
+  .form {
+    margin: 5.5rem 4rem;
+  }
+
+  .about__company {
+    margin: 5rem auto;
+  }
+
+  .about__company .logo {
+    margin: 0 4rem;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    margin: 23% 0 auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .contact h2 {
+    position: absolute;
+    margin-right: 45%;
+  }
+
+  .form {
+    margin: 5.5rem 13%;
+  }
+
+  .about__company {
+    display: flex;
+    margin: 5rem auto;
+  }
+
+  .about__company .logo {
+    margin: 0 4rem;
+  }
+
+  .about__company ul {
+    margin: 10% 0;
+    font-size: 18px;
+  }
+}

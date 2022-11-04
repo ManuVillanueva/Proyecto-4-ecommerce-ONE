@@ -30,3 +30,25 @@
   padding: 1rem;
   border: 1px solid #2a7ae4;
 }
+
+/*      Responsive Design        */
+
+/*        Tablet        */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .info__banner {
+    padding: 11rem 5rem;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .info__banner {
+    padding: 11rem 5rem;
+  }
+
+  .banner__hero img {
+    height: 90%;
+  }
+}

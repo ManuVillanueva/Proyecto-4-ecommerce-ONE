@@ -36,3 +36,65 @@
 .products a {
   color: #2a7ae4;
 }
+
+/*     Responsive Design      */
+
+/*   Tablet   */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .gallery {
+    padding: 39% 0;
+    height: 95rem;
+  }
+
+  .gallery__title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery__title a {
+    margin: 2rem;
+  }
+
+  .gallery__title h3 {
+    margin: 1rem;
+  }
+
+  .fa-arrow-right {
+    color: #2a7ae4;
+    margin: 0.3%;
+    right: 1%;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .gallery {
+    padding: 40% 7rem;
+    height: 95rem;
+  }
+
+  .gallery__title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery__title a {
+    margin: 2rem;
+  }
+
+  .gallery__title h3 {
+    margin: 1rem;
+  }
+
+  .fa-arrow-right {
+    color: #2a7ae4;
+    margin: 0.3%;
+    right: 1%;
+  }
+
+  .products {
+    padding: 0;
+  }
+}

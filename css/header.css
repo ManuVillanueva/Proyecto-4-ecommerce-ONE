@@ -35,3 +35,74 @@ li #login__btn {
   margin-left: 2rem;
   width: 10px;
 }
+
+/*            Responsive design                */
+
+/*   Tablet   */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .hero {
+    height: 6rem;
+  }
+
+  .logo {
+    width: -1rem;
+  }
+
+  .logo a img {
+    width: 3rem;
+  }
+
+  .logo img {
+    width: 4rem;
+    margin: 5px;
+  }
+
+  #login__btn {
+    position: absolute;
+    margin: 0 50%;
+    margin-top: -.5rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    position: absolute;
+    right: 19rem;
+    margin-top: .5rem;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    height: 6rem;
+  }
+
+  .logo {
+    width: -1rem;
+    margin-left: 10%;
+  }
+
+  .logo a img {
+    width: 3rem;
+  }
+
+  .logo img {
+    width: 4rem;
+    margin: 5px;
+  }
+
+  #login__btn {
+    position: absolute;
+    margin: 0 50%;
+    margin-top: -.5rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    position: absolute;
+    right: 35%;
+    margin-top: .5rem;
+  }
+}
