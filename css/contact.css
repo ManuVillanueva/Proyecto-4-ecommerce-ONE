@@ -22,6 +22,7 @@
 
 #name {
   border: none;
+  border-radius: 5px;
   margin: 1rem auto;
   padding: 10px 0;
   width: 328px;
@@ -30,6 +31,7 @@
 #textarea {
   margin: 1rem auto;
   border: none;
+  border-radius: 5px;
   width: 328px;
   resize: none;
 }
@@ -37,6 +39,7 @@
 .form button {
   background: #2a7ae4;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
   color: #fff;
   margin: 1rem auto;
@@ -119,8 +122,6 @@
   }
 
   .about__company {
-    display: flex;
-    text-align: center;
     align-items: center;
   }
 
