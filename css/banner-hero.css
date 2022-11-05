@@ -45,6 +45,11 @@
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
+
+  #banner {
+    display: none;
+  }
+
   .banner__hero {
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;

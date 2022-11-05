@@ -98,6 +98,12 @@ li #login__btn {
     position: absolute;
     margin: 0 45%;
     margin-top: -.5rem;
+    transition: 600ms;
+  }
+
+  #login__btn:hover {
+    background: #2a7ae4;
+    color: #fff;
   }
 
   .fa-magnifying-glass {

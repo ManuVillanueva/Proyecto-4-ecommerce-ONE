@@ -33,6 +33,10 @@
   color: #2a7ae4;
 }
 
+#add__desktop {
+  display: none;
+}
+
 /*     Responsive Design      */
 
 /*   Tablet   */
@@ -99,18 +103,28 @@
     right: 1%;
   }
 
-  .products {
-    padding: 0;
-    margin: 0;
-  }
-
+  
   .products__container {
     margin: 0 13%;
+  }
+  
+  .products {
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .products img {
+    width: 156px;
+    height: 174px;
   }
 
   .fa-arrow-right {
     position: relative;
     margin: 0 93%;
     top: -47%;
+  }
+
+  #add__desktop {
+    display: block;
   }
 }

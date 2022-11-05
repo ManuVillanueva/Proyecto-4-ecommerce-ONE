@@ -34,7 +34,7 @@
 
     <!--Banner section-->
     <section class="banner__hero">
-      <img src="img/banner.jpg" alt="Imagen de una gameboy con mario bross">
+      <img id="banner" src="img/banner.jpg" alt="Imagen de una gameboy con mario bross">
       <div class="info__banner">
         <h2>Noviembre Promocional</h2>
         <p>Productos seleccionados con 33% de descuento</p>
@@ -79,14 +79,14 @@
             <a href="#">Ver producto</a>
           </div>
 
-          <div class="products">
+          <div class="products" id="add__desktop">
             <img src="img/galeria-starwars/starwars-5.png" alt="">
             <h5>Producto XYZ</h5>
             <p>R$ 60,00</p>
             <a href="#">Ver producto</a>
           </div>
 
-          <div class="products">
+          <div class="products" id="add__desktop">
             <img src="img/galeria-starwars/starwars-6.png" alt="">
             <h5>Producto XYZ</h5>
             <p>R$ 60,00</p>
@@ -132,14 +132,14 @@
             <a href="#">Ver producto</a>
           </div>
 
-          <div class="products">
+          <div class="products" id="add__desktop">
             <img src="img/galeria-consolas/consola-5.png" alt="Foto de unos joycons de nintendo switch">
             <h5>Joystick de Switch XYZ</h5>
             <p>R$ 60,00</p>
             <a href="#">Ver producto</a>
           </div>
 
-          <div class="products">
+          <div class="products" id="add__desktop">
             <img src="img/galeria-consolas/consola-6.png" alt="Foto de unos joycons de nintendo switch">
             <h5>Joystick de Switch XYZ</h5>
             <p>R$ 60,00</p>
@@ -185,14 +185,14 @@
             <a href="#">Ver producto</a>
           </div>
 
-          <div class="products">
+          <div class="products" id="add__desktop">
             <img src="img/galeria-varios/varios-5.png" alt="Foto de un joystick y una consola">
             <h5>Joystick y Consola XYZ</h5>
             <p>R$ 60,00</p>
             <a href="#">Ver producto</a>
           </div>
 
-          <div class="products">
+          <div class="products" id="add__desktop">
             <img src="img/galeria-varios/varios-6.png" alt="Foto de un joystick y una consola">
             <h5>Joystick y Consola XYZ</h5>
             <p>R$ 60,00</p>
@@ -206,30 +206,32 @@
     <!--Contact section-->
     <section class="contact">
       <h2>Contacte con nosotros</h2>
-      <form class="form" action="">
-        <label for="name">Nombre</label>
-        <input id="name" type="text">
-
-        <label for="textarea">Escriba su mensaje</label>
-        <textarea name="" id="textarea" cols="15" rows="10"></textarea>
-
-        <button>Enviar mensaje</button>
-      </form>
-
-      <div class="about__company">
-        <div class="logo">
-          <a href="#"><img src="img/Vector.png" alt="Imagen de un mando"></a>
-          <img src="img/AluraGeek.png" alt="Imagen de letras de alura">
-          <img src="img/AluraGeek2.png" alt="Imagen de letras de alura">
+      <div class="contact__container">
+        <form class="form" action="">
+          <label for="name">Nombre</label>
+          <input id="name" type="text">
+  
+          <label for="textarea">Escriba su mensaje</label>
+          <textarea name="" id="textarea" cols="15" rows="10"></textarea>
+  
+          <button>Enviar mensaje</button>
+        </form>
+  
+        <div class="about__company">
+          <div class="logo">
+            <a href="#"><img src="img/Vector.png" alt="Imagen de un mando"></a>
+            <img src="img/AluraGeek.png" alt="Imagen de letras de alura">
+            <img src="img/AluraGeek2.png" alt="Imagen de letras de alura">
+          </div>
+          <ul>
+            <li><a>Quienes somos</a></li>
+            <li><a>Política de privacidad</a></li>
+            <li><a>Programa de fidelidad</a></li>
+            <li><a>Nuestras tiendas</a></li>
+            <li><a>Quiero ser franquiciado</a></li>
+            <li><a>Anúncie aquí</a></li>
+          </ul>
         </div>
-        <ul>
-          <li><a>Quienes somos</a></li>
-          <li><a>Política de privacidad</a></li>
-          <li><a>Programa de fidelidad</a></li>
-          <li><a>Nuestras tiendas</a></li>
-          <li><a>Quiero ser franquiciado</a></li>
-          <li><a>Anúncie aquí</a></li>
-        </ul>
       </div>
     </section>
 
