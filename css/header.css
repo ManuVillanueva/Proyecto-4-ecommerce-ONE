@@ -81,11 +81,12 @@ li #login__btn {
 
   .logo {
     width: -1rem;
-    margin-left: 10%;
+    margin-left: 15%;
   }
 
   .logo a img {
     width: 3rem;
+    vertical-align: super;
   }
 
   .logo img {
@@ -95,7 +96,7 @@ li #login__btn {
 
   #login__btn {
     position: absolute;
-    margin: 0 50%;
+    margin: 0 45%;
     margin-top: -.5rem;
   }
 

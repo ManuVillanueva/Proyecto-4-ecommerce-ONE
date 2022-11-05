@@ -18,11 +18,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 15px;
-}
-
-.products {
-  padding: 1rem 0;
+  margin: 0 1rem;
 }
 
 .products h5 {
@@ -65,23 +61,32 @@
     margin: 0.3%;
     right: 1%;
   }
+
+  .products__container {
+    margin: 0 3rem;
+  }
 }
 
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
   .gallery {
-    padding: 40% 7rem;
-    height: 95rem;
+    position: relative;
   }
 
   .gallery__title {
-    margin: 0;
-    padding: 0;
+    margin: 2rem 10rem;
+    padding: 1rem;
   }
 
   .gallery__title a {
     margin: 2rem;
+  }
+
+  .starwars__gallery,
+  .consoles__gallery {
+    width: 85%;
+    margin-left: 5%;
   }
 
   .gallery__title h3 {
@@ -96,5 +101,16 @@
 
   .products {
     padding: 0;
+    margin: 0;
+  }
+
+  .products__container {
+    margin: 0 13%;
+  }
+
+  .fa-arrow-right {
+    position: relative;
+    margin: 0 93%;
+    top: -47%;
   }
 }

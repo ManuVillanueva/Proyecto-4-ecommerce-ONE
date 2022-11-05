@@ -113,6 +113,10 @@
 
   .form {
     margin: 5.5rem 13%;
+    padding: 1rem;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 5px #ccc;
   }
 
   .about__company {
@@ -121,7 +125,9 @@
   }
 
   .about__company .logo {
+    position: relative;
     margin: 0 4rem;
+    top: -28%;
   }
 
   .about__company ul {

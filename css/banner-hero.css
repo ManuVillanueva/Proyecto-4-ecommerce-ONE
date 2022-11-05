@@ -29,6 +29,7 @@
   position: absolute;
   padding: 1rem;
   border: 1px solid #2a7ae4;
+  transition: 600ms;
 }
 
 /*      Responsive Design        */
@@ -44,8 +45,30 @@
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
+  .banner__hero {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
   .info__banner {
-    padding: 11rem 5rem;
+    text-align: center;
+    padding: 24rem 5rem;
+    font-size: 22px;
+  }
+
+  .info__banner a {
+    margin-top: 3rem;
+  }
+
+  .info__banner a:hover {
+    background: #fff;
+    color: #2a7ae4;
+    scale: 1.1;
+    box-shadow: 5px 4px 5px #2a7ae4;
   }
 
   .banner__hero img {
