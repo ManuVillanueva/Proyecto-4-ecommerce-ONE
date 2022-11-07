@@ -1,8 +1,7 @@
 /*Starwars*/
 .gallery__title {
   display: flex;
-  margin: 10px;
-  padding: 2rem 0;
+  padding: 2rem 5px;
   justify-content: space-between;
 }
 
@@ -53,27 +52,17 @@
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .gallery {
-    padding: 39% 0;
+    padding: 30% 0;
     height: 95rem;
   }
 
   .gallery__title {
     margin: 0;
-    padding: 0;
-  }
-
-  .gallery__title a {
-    margin: 2rem;
-  }
-
-  .gallery__title h3 {
-    margin: 1rem;
+    padding: 3rem;
   }
 
   .fa-arrow-right {
     color: #2a7ae4;
-    margin: 0.3%;
-    right: 1%;
   }
 
   .products__container {
