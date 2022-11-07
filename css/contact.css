@@ -137,6 +137,10 @@
     margin: 1rem;
   }
 
+  .logo a img {
+    width: 2rem;
+  }
+
   .about__company ul {
     margin: 10% 0;
     font-size: 18px;
