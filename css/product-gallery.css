@@ -89,22 +89,13 @@
   }
 
   .gallery__title {
-    margin: 2rem 10rem;
-    padding: 1rem;
-  }
-
-  .gallery__title a {
-    margin: 2rem;
+    margin: 3rem 13%;
   }
 
   .starwars__gallery,
   .consoles__gallery {
     width: 85%;
     margin-left: 5%;
-  }
-
-  .gallery__title h3 {
-    margin: 1rem;
   }
 
   .fa-arrow-right {

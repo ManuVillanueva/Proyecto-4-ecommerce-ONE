@@ -49,34 +49,71 @@ li #login__btn {
 /*   Tablet   */
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  #search__icon {
+    display: none;
+  }
+
   .hero {
-    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .logo {
-    width: -1rem;
+    margin: 0;
   }
 
-  .logo a img {
-    width: 3rem;
-  }
-
-  .logo img {
+  .logo img:nth-child(2) {
     width: 4rem;
-    margin: 5px;
   }
 
-  #login__btn {
-    position: absolute;
-    margin: 0 50%;
-    margin-top: -.5rem;
+  .logo img:nth-child(3) {
+    width: 4rem;
   }
 
-  .fa-magnifying-glass {
-    color: black;
-    position: absolute;
-    right: 19rem;
-    margin-top: .5rem;
+  /*Search input*/
+
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    width: 300px;
+    min-height: 50px;
+    max-width: 300px;
+    padding: 0 1rem;
+    color: #000;
+    font-size: 15px;
+    border: 1px solid #2a7ae4;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: 1px solid #2a7ae4;
+    border-radius: 0 6px 6px 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #2a7ae4;
+  }
+
+  .button--submit img {
+    margin-top: .5em;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: whitesmoke;
+    outline: none;
   }
 }
 
@@ -115,7 +152,7 @@ li #login__btn {
     padding: 0 1rem;
     color: #000;
     font-size: 15px;
-    border: 1px solid #5e4dcd;
+    border: 1px solid #2a7ae4;
     border-radius: 6px 0 0 6px;
     background-color: transparent;
   }
@@ -123,9 +160,9 @@ li #login__btn {
   .button--submit {
     min-height: 50px;
     padding: .5em 1em;
-    border: none;
+    border: 1px solid #2a7ae4;
     border-radius: 0 6px 6px 0;
-    background-color: #5e4dcd;
+    background-color: #fff;
     color: #000;
     font-size: 15px;
     cursor: pointer;
@@ -133,11 +170,15 @@ li #login__btn {
   }
   
   .button--submit:hover {
-    background-color: #5e5dcd;
+    background-color: #2a7ae4;
+  }
+
+  .button--submit img {
+    margin-top: .5em;
   }
   
   .input:focus, .input:focus-visible {
-    border-color: black;
+    border-color: whitesmoke;
     outline: none;
   }  
 

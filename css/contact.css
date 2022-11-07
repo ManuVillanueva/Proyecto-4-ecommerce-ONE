@@ -87,6 +87,10 @@
   .form {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 5px #ccc;
   }
 
   .about__company {
@@ -101,6 +105,10 @@
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
+
+  .contact {
+    margin: 4rem auto;
+  }
 
   .contact h2 {
     text-align: center;
