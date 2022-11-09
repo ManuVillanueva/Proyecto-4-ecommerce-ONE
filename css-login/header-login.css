@@ -1,0 +1,30 @@
+.hero {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/*Hide the search input*/
+
+.input-group {
+  display: none;
+}
+
+/*Hide the search input*/
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links {
+  padding: .5rem;
+  margin-top: 5px;
+}
+
+.nav__links ul li a img {
+  width: 1.5rem;
+}
+

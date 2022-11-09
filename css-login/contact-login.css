@@ -1,0 +1,73 @@
+.contact {
+  background: #EAF2FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact h3 {
+  margin-top: 2rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.form {
+  flex-direction: column;
+}
+
+#name {
+  border: none;
+  border-radius: 5px;
+  margin: 1rem auto;
+  padding: 10px 0;
+  width: 328px;
+}
+
+#textarea {
+  margin: 1rem auto;
+  border: none;
+  border-radius: 5px;
+  width: 328px;
+  resize: none;
+}
+
+.form button {
+  background: #2a7ae4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  width: 7rem;
+}
+
+.about__company .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.about__company .logo img {
+  width: 3.5rem;
+}
+
+.about__company ul {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.about__company ul li {
+  margin: 20px 0;
+}
+
+.about__company li a {
+  cursor: pointer;
+}
