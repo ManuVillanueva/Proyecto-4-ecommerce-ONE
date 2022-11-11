@@ -34,4 +34,56 @@
   margin-bottom: 3rem;
   width: 6rem;
   height: 3rem;
+  transition: 600ms;
+}
+
+.btn__login:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #2A7AE4;
+}
+
+/* Responsive */
+
+/* tablet */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  .login {
+    justify-content: center;
+    height: 55vh;
+  }
+
+  .login__form input {
+    margin: .5rem 0;
+    padding: 1rem 1.5rem;
+    width: 20rem;
+  }
+
+  .btn__login {
+    width: 10rem;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+
+  .login {
+    justify-content: center;
+    height: 90vh;
+  }
+
+  .login h3 {
+    font-size: 1.7rem;
+  }
+
+  .login__form input {
+    padding: 1.2rem 1.5rem;
+    width: 25rem;
+  }
+
+  .btn__login {
+    width: 10rem;
+  }
 }
