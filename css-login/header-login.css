@@ -1,8 +1,10 @@
 .hero {
+  background: #fff;
   display: flex;
   padding: 10px;
   width: 100%;
   justify-content: space-between;
+  box-shadow: 5px 5px 5px #1f1f1f;
 }
 
 /*Hide the search input*/

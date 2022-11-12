@@ -1,14 +1,34 @@
 .login {
-  background: url(../img/background-login.jpg);
+  /* background: url(../img/background-login.jpg);
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   height: 100vh;
+}
+
+.video__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background__video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
 }
 
 .login h3 {
@@ -52,6 +72,22 @@
 }
 
 /* Responsive */
+
+/*Background video*/
+
+@media (min-aspect-ratio: 16/9) {
+  .background__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .background__video {
+    width: auto;
+    height: 100%;
+  }
+}
 
 /* tablet */
 
