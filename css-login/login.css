@@ -1,13 +1,21 @@
 .login {
-  background: #E5E5E5;
+  background: url(../img/background-login.jpg);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .login h3 {
+  color: #2A7AE4;
   margin-top: 5em;
   margin-bottom: 1rem;
+  font-size: 1.7rem;
 }
 
 .login__form {
@@ -18,11 +26,11 @@
 }
 
 .login__form input {
-  padding: .5rem .5rem;
+  padding: 1rem .5rem;
   margin: .5rem 0;
   border-radius: 5px;
   border: none;
-  width: 13rem;
+  width: 15rem;
 }
 
 .btn__login {
