@@ -91,6 +91,10 @@
     margin-left: 5%;
   }
 
+  .starwars__gallery {
+    margin-top: 0;
+  }
+
   .fa-arrow-right {
     color: #2a7ae4;
     margin: 0.3%;

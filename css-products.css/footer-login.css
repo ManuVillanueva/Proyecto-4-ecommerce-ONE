@@ -27,10 +27,21 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
   transition: .5s;
 }
 
 .social__links a:hover {
   color: #2a7ae4;
   transform: scale(1.1);
+}
+
+/* Responsive Design */
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .social__links a {
+    margin: 0 2rem;
+  }
 }

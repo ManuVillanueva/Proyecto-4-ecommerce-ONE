@@ -1,26 +1,43 @@
 
 .products {
   background: #E5E5E5;
+  padding: 1rem 0;
 }
 
-.products h2, a {
+.title__container {
   display: flex;
   padding: 1rem;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.products__container {
-  display: flex;
-  flex-wrap: wrap;
+.btn__product {
+  background: #2a7ae4;
+  border: 1px solid #2a7ae4;
+  border-radius: 5px;
+  color: #fff;
   margin-top: 1rem;
   padding: 1rem;
+  transition: 600ms;
 }
 
-.products__container, .product {
-  padding: 1rem .3rem;
+.btn__product:hover {
+  background: #fff;
+  color: #2a7ae4;
+}
+
+.starwar__container, 
+.console__container,
+.varity__container {
+  display: flex;
   justify-content: center;
-  margin: 5px;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin: 1rem;
 }
 
 .product > img {
@@ -30,17 +47,72 @@
   box-shadow: 5px 5px 5px #cccccc;
 }
 
-.product h5 {
-  margin-top: -1rem;
+.product h5 p {
+  margin-top: 1rem;
 }
 
 .icons__products {
-  position: relative;
-  top: -72%;
-  left: 35%;
+  position: absolute;
+  margin: .5rem auto;
 }
 
 .icons__products img {
   margin: 0 1rem;
-  filter: drop-shadow(5px 5px 8px #000);
+  /* filter: drop-shadow(5px 5px 8px #000); */
+}
+
+/* Responsive Design */
+
+/* tablet */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  .products__container {
+    display: flex;
+    justify-content: center;
+  } 
+
+  .products__container, .product {
+    margin: 1rem;
+  }
+
+  .icons__products img {
+    filter: none;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+
+  .products__container {
+    padding: 1rem;
+    justify-content: normal;
+  }
+
+  .title__container {
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+
+  .starwar__container, 
+  .console__container,
+  .varity__container {
+    margin-top: 1rem;
+  }
+
+  .product > img {
+    width: 154px;
+    height: 174px;
+  }
+
+  .product > h5, p {
+    margin-top: .5rem;
+  }
+
+  .btn__product {
+    margin-top: 0;
+  }
+
 }

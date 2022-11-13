@@ -60,7 +60,11 @@
 
 .about__company ul {
   text-align: center;
-  padding: 10px 0;
+  padding: 1rem 0;
+}
+
+.about__company li {
+  margin: 1rem auto;
 }
 
 .about__company li a {
@@ -102,7 +106,7 @@
 @media screen and (min-width: 1024px) {
 
   .contact {
-    margin: 4rem auto;
+    margin: 0;
   }
 
   .contact h2 {
