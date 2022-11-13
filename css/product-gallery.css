@@ -1,4 +1,8 @@
 /*Starwars*/
+.starwars__gallery {
+  margin-top: 10%;
+}
+
 .gallery__title {
   display: flex;
   padding: 2rem 5px;
