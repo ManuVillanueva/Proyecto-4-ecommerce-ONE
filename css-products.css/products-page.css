@@ -37,7 +37,7 @@
 }
 
 .product {
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 .product > img {
@@ -59,6 +59,7 @@
 .icons__products img {
   margin: 0 1rem;
   /* filter: drop-shadow(5px 5px 8px #000); */
+  transition: 600ms;
 }
 
 /* Responsive Design */
@@ -102,6 +103,10 @@
     margin-top: 1rem;
   }
 
+  .product {
+    margin: 1rem;
+  }
+
   .product > img {
     width: 154px;
     height: 174px;
@@ -113,6 +118,10 @@
 
   .btn__product {
     margin-top: 0;
+  }
+
+  .icons__products img:hover {
+    transform: scale(1.2);
   }
 
 }

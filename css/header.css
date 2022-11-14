@@ -1,11 +1,8 @@
 .hero {
   display: flex;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-}
-
-.logo {
-  margin-top: 1rem;
 }
 
 .logo a img {
@@ -40,6 +37,7 @@ li #login__btn {
 }
 
 #search__icon {
+  color: #2a7ae4;
   margin-left: 2rem;
   width: 10px;
 }

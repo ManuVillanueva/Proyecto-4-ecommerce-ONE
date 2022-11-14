@@ -21,7 +21,11 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 1rem;
+  margin: .5rem auto;
+}
+
+.products {
+  margin: .5rem auto;
 }
 
 .products img {
@@ -43,6 +47,19 @@
 }
 
 .products a {
+  background: #2a7ae4;
+  border: 1px solid #2a7ae4;
+  border-radius: 5px;
+  color: #fff;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 600ms;
+}
+
+.products a:hover {
+  background: #fff;
   color: #2a7ae4;
 }
 
@@ -56,7 +73,6 @@
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .gallery {
-    padding: 30% 0;
     height: 95rem;
   }
 
