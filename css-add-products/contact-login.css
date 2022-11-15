@@ -1,0 +1,170 @@
+.contact {
+  background: #EAF2FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact h2 {
+  margin-top: 2rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  border: none;
+  border-radius: 5px;
+  margin: 1rem auto;
+  padding: 10px 0;
+  width: 328px;
+}
+
+#textarea {
+  margin: 1rem auto;
+  border: none;
+  border-radius: 5px;
+  width: 328px;
+  resize: none;
+}
+
+.form button {
+  background: #2a7ae4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  width: 7rem;
+}
+
+.about__company .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.about__company .logo img {
+  width: 3.5rem;
+}
+
+.about__company ul {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.about__company ul li {
+  margin: 20px 0;
+}
+
+.about__company li a {
+  cursor: pointer;
+}
+
+/* Responsive */
+
+/* tablet */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  .contact__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 5px #ccc;
+  }
+
+  .about__company {
+    margin: 0;
+  }
+
+  .about__company .logo {
+    margin: 0 4rem;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+
+  .contact {
+    margin: auto;
+    align-items: normal;
+  }
+
+  .contact h2 {
+    color: #464646;
+    text-align: center;
+  }
+
+  .contact__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 5px #ccc;
+  }
+
+  .about__company {
+    align-items: center;
+  }
+
+  .about__company .logo {
+    margin: 1rem;
+  }
+
+  .logo a img {
+    width: 2rem;
+  }
+
+  .about__company ul {
+    margin: 10% 0;
+    font-size: 18px;
+  }
+
+  .about__company ul li {
+    transition: 600ms;
+  }
+
+  .about__company ul li:hover {
+    color: #2a7ae4;
+  }
+
+  .form button {
+    transition: 600ms;
+  }
+
+  .form button:hover {
+    background: #fff;
+    color: #2a7ae4;
+    transform: scale(1.08);
+    box-shadow: 4px 5px 5px 5px #ccc;
+  }
+}

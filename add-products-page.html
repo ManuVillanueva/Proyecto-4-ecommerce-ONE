@@ -12,11 +12,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css-add-products/header.css">
   <link rel="stylesheet" href="css-add-products/add-products.css">
+  <link rel="stylesheet" href="css-add-products/contact-login.css">
+  <link rel="stylesheet" href="css-add-products/footer-login.css">
 </head>
 <body>
   <header class="hero">
     <div class="logo">
-      <a href="#">
+      <a href="index.html">
         <img src="img/Vector.png" alt="Imagen de un mando">
         <img src="img/AluraGeek.png" alt="Imagen de letras de alura">
         <img src="img/AluraGeek2.png" alt="Imagen de letras de alura">
@@ -34,16 +36,73 @@
     </nav>
   </header>
   <main>
+
+    <!--Add products section-->
     <section class="add__products">
       <h2>Agregar nuevo producto</h2>
       <form class="product__form" action="">
         <input type="url" placeholder="URL de la imagen">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
+        <input type="text" placeholder="Categoria">
+        <input type="text" placeholder="Nombre del producto">
+        <input type="number" placeholder="Precio del producto">
+        <textarea name="" id="product__description" cols="35" rows="5" placeholder="Descripción del producto"></textarea>
+        <button>Agregar producto</button>
       </form>
     </section>
+
+    <!--contact section-->
+    <section class="contact">
+      <h2>Contacte con nosotros</h2>
+      <div class="contact__container">
+        <form class="form" action="">
+          <label for="name">Nombre</label>
+          <input id="name" type="text">
+  
+          <label for="textarea">Escriba su mensaje</label>
+          <textarea name="" id="textarea" cols="15" rows="10"></textarea>
+  
+          <button>Enviar mensaje</button>
+        </form>
+  
+        <div class="about__company">
+          <div class="logo">
+            <a href="#">
+              <img src="img/Vector.png" alt="Imagen de un mando">
+              <img src="img/AluraGeek.png" alt="Imagen de letras de alura">
+              <img src="img/AluraGeek2.png" alt="Imagen de letras de alura">
+            </a>
+          </div>
+          <ul>
+            <li><a>Quienes somos</a></li>
+            <li><a>Política de privacidad</a></li>
+            <li><a>Programa de fidelidad</a></li>
+            <li><a>Nuestras tiendas</a></li>
+            <li><a>Quiero ser franquiciado</a></li>
+            <li><a>Anúncie aquí</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer section-->
+    <section>
+      <footer class="footer">
+        <p>Made by <a href="#">Manuel Villanueva</a> - 2022</p>
+        <div class="social__media">
+          <ul class="social__links">
+            <li></li>
+            <a href="#"><i class="fa-brands fa-github"></i>Github</a>
+            <li></li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+            <li></li>
+            <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+            <li></li>
+            <a href="#"><i class="fa-solid fa-file-pdf"></i>Curriculum</a>
+          </ul>
+        </div>
+      </footer>
+    </section>
+
   </main>
 </body>
 </html>
