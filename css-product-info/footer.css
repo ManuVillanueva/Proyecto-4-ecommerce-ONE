@@ -1,0 +1,36 @@
+.footer {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer a {
+  color: black;
+  transition: .5s;
+}
+
+.footer p a:hover {
+  color: #2a7ae4;
+}
+
+.social__links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 3rem;
+}
+
+.social__links a {
+  margin: 0 1rem;
+}
+
+.social__links a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: .5s;
+}
+
+.social__links a:hover {
+  color: #2a7ae4;
+  transform: scale(1.1);
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Alura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css-product-info/header-login.css">
+  <link rel="stylesheet" href="css-product-info/buy-product.css">
+  <link rel="stylesheet" href="css-product-info/product-gallery.css">
+  <link rel="stylesheet" href="css-product-info/contact.css">
+  <link rel="stylesheet" href="css-product-info/footer.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/Vector.png" alt="Imagen de un mando">
+        <img src="img/AluraGeek.png" alt="Imagen de letras de alura">
+        <img src="img/AluraGeek2.png" alt="Imagen de letras de alura">
+      </a>
+    </div>
+    <div class="input-group">
+      <input type="search" class="input" id="Email" name="Email" autocomplete="off" placeholder="¿Qué deseas buscar?">
+      <a class="button--submit" href="#"><img src="img/search-icon.png" alt="Icono de busqueda"></a>
+    </div>
+    <nav class="nav">
+      <ul class="nav__links">
+        <li><a href="·"><img src="img/search-icon.png" alt="Icono de busqueda"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!--Buy product section-->
+  <section class="buy__product">
+    <div class="buy__product___container">
+      <img src="img/buy-products/xbox-s.jpg" alt="Foto de una xbox s con dos joystick">
+    </div>
+    <div class="info__product___container">
+      <h3>Xbox ONE</h3>
+      <h5>$60.00</h5>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quae, culpa magni sunt nemo ipsum assumenda qui at tempore sequi.</p>
+    </div>
+  </section>
+
+  <!--Similar products section-->
+  <section class="similar__products">
+    <div class="similar__products___title">
+      <h3>Productos Similares</h3>
+    </div>
+
+      <div class="products__container">
+        <div class="products">
+          <img src="img/galeria-consolas/consola-1.png" alt="Foto de un joystick de xbox one x">
+          <h5>Joystick de Xbox XYZ</h5>
+          <p>R$ 60,00</p>
+          <a href="product-info.html">Ver producto</a>
+        </div>
+
+        <div class="products">
+          <img src="img/galeria-consolas/consola-2.png" alt="Foto de una play 5">
+          <h5>Play 5 XYZ</h5>
+          <p>R$ 60,00</p>
+          <a href="product-info.html">Ver producto</a>
+        </div>
+
+        <div class="products">
+          <img src="img/galeria-consolas/consola-3.png" alt="Foto de una Super Nintendo">
+          <h5>Consola XYZ</h5>
+          <p>R$ 60,00</p>
+          <a href="product-info.html">Ver producto</a>
+        </div>
+
+        <div class="products">
+          <img src="img/galeria-consolas/consola-4.png" alt="Foto de unos joycons de nintendo switch">
+          <h5>Joystick de Switch XYZ</h5>
+          <p>R$ 60,00</p>
+          <a href="product-info.html">Ver producto</a>
+        </div>
+      </div>
+  </section>
+
+  <!--Contact section-->
+  <section class="contact">
+    <h3>Contacte con nosotros</h3>
+    <div class="contact__container">
+      <form class="form" action="">
+        <label for="name">Nombre</label>
+        <input id="name" type="text">
+
+        <label for="textarea">Escriba su mensaje</label>
+        <textarea name="" id="textarea" cols="15" rows="10"></textarea>
+
+        <button>Enviar mensaje</button>
+      </form>
+
+      <div class="about__company">
+        <div class="logo">
+          <a href="#">
+            <img src="img/Vector.png" alt="Imagen de un mando">
+            <img src="img/AluraGeek.png" alt="Imagen de letras de alura">
+            <img src="img/AluraGeek2.png" alt="Imagen de letras de alura">
+          </a>
+        </div>
+        <ul>
+          <li><a>Quienes somos</a></li>
+          <li><a>Política de privacidad</a></li>
+          <li><a>Programa de fidelidad</a></li>
+          <li><a>Nuestras tiendas</a></li>
+          <li><a>Quiero ser franquiciado</a></li>
+          <li><a>Anúncie aquí</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer section-->
+  <section>
+    <footer class="footer">
+      <p>Made by <a href="#">Manuel Villanueva</a> - 2022</p>
+      <div class="social__media">
+        <ul class="social__links">
+          <li></li>
+          <a href="#"><i class="fa-brands fa-github"></i>Github</a>
+          <li></li>
+          <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+          <li></li>
+          <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+          <li></li>
+          <a href="#"><i class="fa-solid fa-file-pdf"></i>Curriculum</a>
+        </ul>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>
