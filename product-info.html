@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css-product-info/header-login.css">
   <link rel="stylesheet" href="css-product-info/buy-product.css">
   <link rel="stylesheet" href="css-product-info/product-gallery.css">
-  <link rel="stylesheet" href="css-product-info/contact.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css-product-info/footer.css">
 </head>
 <body>
@@ -87,16 +87,22 @@
 
   <!--Contact section-->
   <section class="contact">
-    <h3>Contacte con nosotros</h3>
+    <h2>Contacte con nosotros</h2>
     <div class="contact__container">
       <form class="form" action="">
-        <label for="name">Nombre</label>
-        <input id="name" type="text">
+        <div class="form__container">
+          <label for="name">Nombre</label>
+          <input id="name" class="input__form" type="text">
+          <p></p>
+        </div>
 
-        <label for="textarea">Escriba su mensaje</label>
-        <textarea name="" id="textarea" cols="15" rows="10"></textarea>
+        <div class="form__container">
+          <label for="textarea">Escriba su mensaje</label>
+          <textarea class="textarea__form" name="" id="textarea" cols="15" rows="10"></textarea>
+          <p></p>
+        </div>
 
-        <button>Enviar mensaje</button>
+        <button class="btn__send">Enviar mensaje</button>
       </form>
 
       <div class="about__company">
@@ -137,5 +143,7 @@
       </div>
     </footer>
   </section>
+
+  <script src="script/validaciones.js"></script>
 </body>
 </html>

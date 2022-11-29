@@ -214,13 +214,19 @@
       <h2>Contacte con nosotros</h2>
       <div class="contact__container">
         <form class="form" action="">
-          <label for="name">Nombre</label>
-          <input id="name" type="text">
+          <div class="form__container">
+            <label for="name">Nombre</label>
+            <input id="name" class="input__form" type="text">
+            <p></p>
+          </div>
   
-          <label for="textarea">Escriba su mensaje</label>
-          <textarea name="" id="textarea" cols="15" rows="10"></textarea>
+          <div class="form__container">
+            <label for="textarea">Escriba su mensaje</label>
+            <textarea class="textarea__form" name="" id="textarea" cols="15" rows="10"></textarea>
+            <p></p>
+          </div>
   
-          <button>Enviar mensaje</button>
+          <button class="btn__send">Enviar mensaje</button>
         </form>
   
         <div class="about__company">
@@ -260,5 +266,7 @@
       </div>
     </footer>
   </main>
+
+  <script src="script/validaciones.js"></script>
 </body>
 </html>

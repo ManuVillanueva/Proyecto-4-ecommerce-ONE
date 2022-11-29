@@ -20,6 +20,11 @@
   padding: 0 1rem;
 }
 
+.form__container {
+  display: flex;
+  flex-direction: column;
+}
+
 #name {
   border: none;
   border-radius: 5px;
@@ -71,6 +76,32 @@
 .about__company li a {
   cursor: pointer;
 }
+
+/* Validate style start */
+
+.form .fail input {
+  border: 0.1px solid;
+  border-color: #fe5f55;
+}
+
+.form .ok input {
+  border: 0.1px solid;
+  border-color: #08ffc8;
+}
+
+.form p {
+  visibility: hidden;
+  position: relative;
+  text-align: left;
+  margin-top: -.5rem;
+}
+
+.form .fail p {
+  visibility: visible;
+  color: #fe5f55;
+}
+
+/* Validate style end */
 
 /*      Responsive Design       */
 
