@@ -15,7 +15,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
 }
 
 .product__form input {
@@ -56,6 +55,34 @@
   color: #2a7ae4;
 }
 
+/* Validate style start */
+
+.product__form .fail input {
+  border: 0.1px solid;
+  border-color: #fe5f55;
+}
+
+.product__form .ok input {
+  border: 0.1px solid;
+  border-color: #08ffc8;
+}
+
+.product__form p {
+  visibility: hidden;
+  position: relative;
+  text-align: left;
+  margin-top: -.5rem;
+}
+
+.product__form .fail p {
+  visibility: visible;
+  color: #fe5f55;
+  position: absolute;
+  margin-top: -5rem;
+}
+
+/* Validate style end */
+
 /* Responsive Design */
 
 /* Tablet */
@@ -94,5 +121,10 @@
 
   .add__products h2 {
     margin: 2rem 0;
+  }
+
+  .product__form .fail p {
+    margin-top: 5rem;
+    margin-right: 34rem;
   }
 }

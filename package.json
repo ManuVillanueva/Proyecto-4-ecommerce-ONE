@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-4-ecommerce-one",
+  "version": "1.0.0",
+  "description": "Cuarto challenge del programa ONE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuVillanueva/Proyecto-4-ecommerce-ONE.git"
+  },
+  "author": "Manuel Villanueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuVillanueva/Proyecto-4-ecommerce-ONE/issues"
+  },
+  "homepage": "https://github.com/ManuVillanueva/Proyecto-4-ecommerce-ONE#readme"
+}

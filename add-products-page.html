@@ -41,11 +41,31 @@
     <section class="add__products">
       <h2>Agregar nuevo producto</h2>
       <form class="product__form" action="">
-        <input type="url" placeholder="URL de la imagen">
-        <input type="text" placeholder="Categoria">
-        <input type="text" placeholder="Nombre del producto">
-        <input type="number" placeholder="Precio del producto">
-        <textarea name="" id="product__description" cols="35" rows="5" placeholder="Descripción del producto"></textarea>
+        <div class="form__input--container">
+          <input class="input__url" type="url" placeholder="URL de la imagen">
+          <p></p>
+        </div>
+        
+        <div class="form__input--container">
+          <input class="input__category" type="text" placeholder="Categoria">
+          <p></p>
+        </div>
+        
+        <div class="form__input--container">
+          <input class="input__product-name" type="text" placeholder="Nombre del producto">
+          <p></p>
+        </div>
+
+        <div class="form__input--container">
+          <input class="input__price" type="number" placeholder="Precio del producto">
+          <p></p>
+        </div>
+
+        <div class="form__input--container">
+          <textarea class="textarea" name="" id="product__description" cols="35" rows="5" placeholder="Descripción del producto"></textarea>
+          <!-- <p></p> -->
+        </div>
+
         <button>Agregar producto</button>
       </form>
     </section>
@@ -112,5 +132,6 @@
   </main>
 
   <script src="script/validaciones.js"></script>
+  <script src="script/add-products-validator.js"></script>
 </body>
 </html>

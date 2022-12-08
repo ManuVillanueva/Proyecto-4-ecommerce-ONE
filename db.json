@@ -1,0 +1,32 @@
+{
+    "producto": [
+        {
+            "name": "Ejemplo1",
+            "imageUrl": "/img/galeria-starwars/starwars-2.png",
+            "price": "100.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars",
+            "description": "description"
+        },
+        {
+            "name": "Ejemplo2",
+            "imageUrl": "/img/galeria-starwars/starwars-1.png",
+            "price": "400.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars",
+            "description": "description"
+        },
+        {
+            "name": "Ejemplo3",
+            "imageUrl": "/img/galeria-starwars/starwars-3.png",
+            "price": "400.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars",
+            "description": "description"
+        }
+            
+    ]
+}
